@@ -46,10 +46,10 @@ def new_canvas():
 image_icon=PhotoImage(file="colors.png")
 root.iconphoto(False,image_icon)
 
-color_box=PhotoImage(file="")
+color_box=PhotoImage(file="color section.png")
 Label(root,image=color_box,bg="#f2f3f5").place(x=10,y=20)
 
-eraser=PhotoImage(file="")
+eraser=PhotoImage(file="eraser.png")
 Button(root, image=eraser, bg="#f2f3f5",command=new_canvas).place(x=30, y=400)
 
 
