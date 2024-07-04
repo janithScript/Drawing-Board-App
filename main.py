@@ -8,7 +8,6 @@ root.title("My Drawing Board")
 root.geometry("1050x570+150+50")
 root.resizable(False, False)
 
-
 current_x = 0
 current_y = 0
 color= 'black'
